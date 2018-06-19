@@ -22,7 +22,7 @@ This sript is used by the project https://github.com/derwas/WeatherStationApplic
 ## Data Model
 
 The data is saved in mongoDB in different collections: temperature, humidity, windS, windD and weather.
-Each entry in these ollections follows this model in json:
+Each document in these collections follows this model in json:
 
 ```json
  {
